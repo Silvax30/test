@@ -1,0 +1,115 @@
+div {
+    box-sizing: border-box;
+    border: red;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    font-style: italic;
+	width: 100%;
+}
+
+nav{
+	width: 100%;
+	background-color: blue;
+    color: black;
+	font-size: 24px;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	background-color: blue;
+	padding: 0;
+}
+
+.header{
+    background-color: black;
+	color: white;
+    position: fixed;
+    width: 15%;
+	height: 100%;
+	border-right: 1px solid black;
+}
+
+.side{
+	width: 85%;
+	border: 1px solid red;
+	float: right;
+}
+
+
+h1{
+    color: black;
+    font-size: 450%;
+    text-align: center;
+    margin: 0;
+	background-color: gainsboro;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+h6{
+    color: black;
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-size: 100%;
+    text-decoration: solid;
+}
+
+circle{
+	border: 50px;
+}
+
+button{
+    height: 44px;
+    border: none;
+    font-size: 80%;
+    background-color: black;
+	width:100%;
+	color: white;
+}
+
+
+button:hover{
+	color: blue;
+	background-color: gainsboro;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#about{
+    width: 100%;
+}
+
+#projects{
+    width: 100%;
+}
+
+#contact{
+	width: 100%;
+}
